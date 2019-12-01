@@ -1,0 +1,10 @@
+1.微服务的拆分
+
+	micro-weather-report
+	
+		-	msa-weather-collection-server
+		-	msa-weather-data-server
+		-	msa-weather-city-server
+		-	msa-weather-report-server
+		
+1.1 -	天气数据采集微服务
