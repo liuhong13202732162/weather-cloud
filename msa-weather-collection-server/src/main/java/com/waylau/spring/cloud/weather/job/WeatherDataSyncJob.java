@@ -16,7 +16,7 @@ import com.waylau.spring.cloud.weather.vo.City;
 
 public class WeatherDataSyncJob extends QuartzJobBean{
 	
-	private static final Logger logger = LoggerFactory.getLogger(WeatherDataCollectionServiceImpl.class);
+	private static final Logger logger = LoggerFactory.getLogger(WeatherDataSyncJob.class);
 	
 	@Autowired
 	private WeatherDataCollectionService weatherDataCollectionService;
